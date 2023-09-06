@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    background-image: url("/HomeTown/cristian-grecu-6yBAQeeNROU-unsplash.jpg");
+    height: 300px;   
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+    
+.header h1{
+    color: white;
+}
+
+.header p{
+    margin-top: 20px;;
+    font-size: larger;
+    padding: 0 20px;;
+    background-color: rgba(51, 51, 65, 0.571);
+    color: white;
+    
+}
+.down_heading{
+    background-color: #e7ffe4;
+    display: block;
+    text-align: center;
+}
+.down_heading img{
+    width: 120px;
+    height: 120px;
+    border-radius: 160px;;
+}
+.things_to_do{
+    display: flex;
+    justify-content: center;
+}
+.things_to_do div{
+    margin: 30px 50px;
+}
+.things_to_do div h3, .things_to_do div p{
+    margin-top: 10px;
+}
+#btn1 {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000; /* Change the color as desired */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease; /* Add a smooth color transition on hover */
+}
+
+#btn1:hover {
+    background-color: lightgreen;
+}
+
+#thing {
+    font-size: 20px;
+    padding: 20px 0px ;
+    font-weight: bold;
+}
+#mr_doggos{
+    width: 150px;
+    height: 200px;
+}
+.guide{
+    display: flex;
+    justify-content: center; 
+    padding: 50px;
+    
+}
+.child{
+background-color: #A6DBD9;
+display: flex;
+padding: 40px 30px;
+border: 1px solid black;
+box-shadow: 5px 5px 5px black;
+border-radius: 10px;
+
+}
+.child img{
+    border: 5px solid white;
+    transform: rotate(3deg);
+
+}
+.guide_info{
+    margin: 10px 40px;
+}
+.guide_info p{
+    font-size: 16px;
+    width: 250px;
+    margin-top: 20px;
+    font-style: italic;
+}
+#Mr{
+    font-style: normal;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: large;
+}
