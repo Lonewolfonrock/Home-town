@@ -3,7 +3,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header {
-    background-image: url("cristian-grecu-6yBAQeeNROU-unsplash.jpg");
+    background-image: url("/cristian-grecu-6yBAQeeNROU-unsplash.jpg");
     height: 300px;   
     background-size: cover;
     display: flex;
